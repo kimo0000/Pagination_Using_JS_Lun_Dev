@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination Using JS | Lun Dev</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <ul class="items">
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img1.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 1</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$1.99</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img2.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 2</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$1.78</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 3</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.99</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img4.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img1.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$4.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img2.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$5.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$1.05</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img4.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.50</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img1.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img2.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img4.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img1.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img2.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img4.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img1.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img2.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+        <li class="item">
+          <div class="image">
+            <img src="imgs/img3.png" alt="image ice" />
+          </div>
+          <div class="content">
+            <h3 class="title">product 4</h3>
+            <p class="desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <h3 class="price">$2.5</h3>
+            <button class="add">Add To Card</button>
+          </div>
+        </li>
+      </ul>
+      <ul class="pages">
+        <li class="prev">Prev</li>
+        <li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li class="next">Next</li>
+      </ul>
+    </div>
+  </body>
+</html>
